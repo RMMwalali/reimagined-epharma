@@ -3,7 +3,7 @@ banner:
   enable : true
   title : "Quality healthcare at your doorstep"
   content : "Whether you're seeking a prescription medication or a natural remedy, we've got you covered. Explore our vast selection of products designed for optimal health and wellness."
-  image : "images/products/product.jpg"
+  image : "https://res.cloudinary.com/dtnbwgpca/image/upload/v1705507551/ePharma/ryqdcx7g2to7gttz4csg.jpg"
   # button
   button:
     enable : true
@@ -19,7 +19,7 @@ about:
   enable : true
   title : "About Hinata ePharmacy"
   content : "At our online pharmacy, we're dedicated to bringing quality healthcare to your doorstep.Whether you're seeking a prescription medication or a natural remedy, we've got you covered. Explore our vast selection of products designed for optimal health and wellness. With our easy-to-use online platform, accessing your medications has never been simpler. Shop from anywhere, anytime, and enjoy the peace of mind knowing you're taking care of your health."
-  image : "images/products/product (19).jpg"
+  image : "https://res.cloudinary.com/dtnbwgpca/image/upload/v1705507769/ePharma/wnodoawhkscipgib2ipc.jpg"
 
 
 ###################### Call to action ########################
@@ -139,49 +139,49 @@ hero:
       
     # testimonial item loop
     - name : "Diabetes Care"
-      image : "images/products/product (2).jpg" # size 100px*100px
+      image : "https://res.cloudinary.com/dtnbwgpca/image/upload/v1705507862/ePharma/bmnwbmgma5vwjacboci0.jpg" # size 100px*100px
       designation : "CEO, Dialogue Broad Band"
       content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
       rating : "three" # rating star, one to five
       
     # testimonial item loop
     - name : "Kidney Care"
-      image : "images/products/product (3).jpg" # size 100px*100px
+      image : "https://res.cloudinary.com/dtnbwgpca/image/upload/v1705507847/ePharma/v3s9mjqdvizgymwac7a2.jpg" # size 100px*100px
       designation : "CEO, Dialogue Broad Band"
       content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
       rating : "five" # rating star, one to five
       
     # testimonial item loop
     - name : "Respiratory Care"
-      image : "images/products/product (4).jpg" # size 100px*100px
+      image : "https://res.cloudinary.com/dtnbwgpca/image/upload/v1705507782/ePharma/eaybvvduxeuszry7kgjw.jpg" # size 100px*100px
       designation : "CEO, Dialogue Broad Band"
       content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
       rating : "four" # rating star, one to five
 
     # testimonial item loop
     - name : "Anti-Inflammatories"
-      image : "images/products/product (5).jpg" # size 100px*100px
+      image : "https://res.cloudinary.com/dtnbwgpca/image/upload/v1705507764/ePharma/jp7093r1o14qaxsock98.jpg" # size 100px*100px
       designation : "CEO, Dialogue Broad Band"
       content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
       rating : "four" # rating star, one to five
 
     # testimonial item loop
     - name : "Antidepressants"
-      image : "images/products/product (9).jpg" # size 100px*100px
+      image : "https://res.cloudinary.com/dtnbwgpca/image/upload/v1705507757/ePharma/dm5fzdffjb2gg8wvbqc3.jpg" # size 100px*100px
       designation : "CEO, Dialogue Broad Band"
       content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
       rating : "four" # rating star, one to five
 
     # testimonial item loop
     - name : "Analgesics"
-      image : "images/products/product (7).jpg" # size 100px*100px
+      image : "https://res.cloudinary.com/dtnbwgpca/image/upload/v1705507755/ePharma/svvxbe3lacygplczinap.jpg" # size 100px*100px
       designation : "CEO, Dialogue Broad Band"
       content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
       rating : "four" # rating star, one to five
       
     # testimonial item loop
     - name : "Antidepressants"
-      image : "images/products/product (6).jpg" # size 100px*100px
+      image : "https://res.cloudinary.com/dtnbwgpca/image/upload/v1705507648/ePharma/yjm9fkyakmykxgvvcw2e.jpg" # size 100px*100px
       designation : "CEO, Dialogue Broad Band"
       content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
       rating : "four" # rating star, one to five

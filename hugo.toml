@@ -134,7 +134,7 @@ unsafe = true
 
 #################### default parameters ################################
 [params]
-logo = "images/logo.png"
+logo = "https://res.cloudinary.com/dtnbwgpca/image/upload/v1705508432/ePharma/nhx1x1ey83kjggxmbtav.png"
 home = "Home"
 # Meta data
 description = "This is meta description"
