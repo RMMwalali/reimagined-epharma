@@ -132,7 +132,7 @@ hero:
   heroItem:
     # testimonial item loop
     - name : "Eye Care"
-      image : "images/products/product (1).jpg" # size 100px*100px
+      image : "https://res.cloudinary.com/dtnbwgpca/image/upload/v1705507875/ePharma/rfy6oc4vmnr7fguuvkwv.jpg" # size 100px*100px
       designation : "CEO, Dialogue Broad Band"
       content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
       rating : "five" # rating star, one to five

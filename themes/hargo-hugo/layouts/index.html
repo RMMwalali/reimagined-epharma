@@ -127,65 +127,6 @@
 {{ end }}
 <!-- /material -->
 
-<!-- advantage -->
-{{ if site.Data.homepage.advantage.enable }}
-{{ with site.Data.homepage.advantage }}
-<section class="section pb-0">
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-md-6">
-        <h2>{{ .title | markdownify }}</h2>
-        <p class="mb-4">{{ .subtitle | markdownify }}</p>
-        <ul class="list-unstyled" style="columns: 2;">
-          {{ range .advantageList }}
-          <li class="mb-3"><i class="ti-arrow-circle-right text-primary mr-2"></i>{{ .listItem }}</li>
-          {{ end }}
-        </ul>
-      </div>
-      <div class="col-md-6">
-        <img src="{{ .image | absURL}}" class="img-fluid" alt="">
-      </div>
-    </div>
-  </div>
-</section>
-{{ end }}
-{{ end }}
-<!-- /advantage -->
-
-<!-- promo video -->
-{{ if site.Data.homepage.video.enable }}
-{{ with site.Data.homepage.video }}
-<section class="section pb-0">
-  <div class="container">
-    <div class="row align-items-center justify-content-between">
-      <div class="col-lg-5 col-md-6">
-        <div class="img-border rounded mb-5 mb-md-0">
-          <img src="{{ .videoThumb | absURL }}" alt="video thumb" class="img-fluid rounded">
-          <a data-toggle="modal" data-src="{{ .videoURL | safeURL }}" data-target="#videoModal2"
-            class="text-color video-modal content-center"><i class="ti-control-play bg-gradient btn-play-lg"></i></a>
-          <!-- Modal -->
-          <div class="modal fade" id="videoModal2" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-              <div class="modal-content border-0 rounded-0">
-                <iframe width="560" height="315" src="" id="video2" frameborder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen></iframe>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <h2>{{ .title | markdownify }}</h2>
-        <p>{{ .content | markdownify }}</p>
-      </div>
-    </div>
-  </div>
-</section>
-{{ end }}
-{{ end }}
-<!-- /promo video -->
-
 <!-- products -->
 {{ if site.Data.homepage.products.enable }}
 <section class="section pb-0">
