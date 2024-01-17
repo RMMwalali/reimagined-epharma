@@ -43,6 +43,36 @@
 {{ end }}
 <!-- /banner -->
 
+<!-- hero carousel -->
+{{ if site.Data.homepage.hero.enable }}
+{{ with site.Data.homepage.hero }}
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2>{{ .title | markdownify }}</h2>
+      </div>
+    </div>
+    <div class="row testimonial-slider">
+      {{ range .heroItem }}
+      <div class="col-4">
+        <div class="text-center">
+          <img src="{{ .image | absURL }}" alt="{{ .name | markdownify }}" class="card-img-top padding-10"> <!-- Add your image URL -->
+          <div class="card-body">
+             <!-- Move the title here -->
+             <h6 class="font-weight-bold card-title">{{ .name | markdownify }}</h6>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+     </div>
+     
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+
 <!-- about -->
 {{ if site.Data.homepage.about.enable }}
 {{ with site.Data.homepage.about }}

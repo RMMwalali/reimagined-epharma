@@ -1,10 +1,9 @@
 ############################ banner ##########################
 banner:
   enable : true
-  title : "Best Beauty Cream For Your Skin"
-  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dolore magna aliquyam erat, sed dia"
-  image : "images/banner.png"
+  title : "Quality healthcare at your doorstep"
+  content : "Whether you're seeking a prescription medication or a natural remedy, we've got you covered. Explore our vast selection of products designed for optimal health and wellness."
+  image : "images/products/product.jpg"
   # button
   button:
     enable : true
@@ -18,11 +17,9 @@ banner:
 ########################## About ##############################
 about:
   enable : true
-  title : "About Our Product"
-  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-          clita kasd gubergren,"
-  image : "images/about.png"
+  title : "About Hinata ePharmacy"
+  content : "At our online pharmacy, we're dedicated to bringing quality healthcare to your doorstep.Whether you're seeking a prescription medication or a natural remedy, we've got you covered. Explore our vast selection of products designed for optimal health and wellness. With our easy-to-use online platform, accessing your medications has never been simpler. Shop from anywhere, anytime, and enjoy the peace of mind knowing you're taking care of your health."
+  image : "images/products/product (19).jpg"
 
 
 ###################### Call to action ########################
@@ -62,7 +59,7 @@ material:
     - title : "Tulshi leaf"
       image : "images/material/material-4.png"
       content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
-
+  
 ########################### Advantage #########################
 advantage:
   enable : true
@@ -125,6 +122,67 @@ testimonial:
     # testimonial item loop
     - name : "Riya Ventila"
       image : "images/clients/client-2.jpg" # size 100px*100px
+      designation : "CEO, Dialogue Broad Band"
+      content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
+      rating : "four" # rating star, one to five
+
+
+hero:
+  enable : true
+  title : "Health Solutions Across the Board"
+  heroItem:
+    # testimonial item loop
+    - name : "Eye Care"
+      image : "images/products/product (1).jpg" # size 100px*100px
+      designation : "CEO, Dialogue Broad Band"
+      content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
+      rating : "five" # rating star, one to five
+      
+    # testimonial item loop
+    - name : "Diabetes Care"
+      image : "images/products/product (2).jpg" # size 100px*100px
+      designation : "CEO, Dialogue Broad Band"
+      content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
+      rating : "three" # rating star, one to five
+      
+    # testimonial item loop
+    - name : "Kidney Care"
+      image : "images/products/product (3).jpg" # size 100px*100px
+      designation : "CEO, Dialogue Broad Band"
+      content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
+      rating : "five" # rating star, one to five
+      
+    # testimonial item loop
+    - name : "Respiratory Care"
+      image : "images/products/product (4).jpg" # size 100px*100px
+      designation : "CEO, Dialogue Broad Band"
+      content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
+      rating : "four" # rating star, one to five
+
+    # testimonial item loop
+    - name : "Anti-Inflammatories"
+      image : "images/products/product (5).jpg" # size 100px*100px
+      designation : "CEO, Dialogue Broad Band"
+      content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
+      rating : "four" # rating star, one to five
+
+    # testimonial item loop
+    - name : "Antidepressants"
+      image : "images/products/product (9).jpg" # size 100px*100px
+      designation : "CEO, Dialogue Broad Band"
+      content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
+      rating : "four" # rating star, one to five
+
+    # testimonial item loop
+    - name : "Analgesics"
+      image : "images/products/product (7).jpg" # size 100px*100px
+      designation : "CEO, Dialogue Broad Band"
+      content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
+      rating : "four" # rating star, one to five
+      
+    # testimonial item loop
+    - name : "Antidepressants"
+      image : "images/products/product (6).jpg" # size 100px*100px
       designation : "CEO, Dialogue Broad Band"
       content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
       rating : "four" # rating star, one to five
