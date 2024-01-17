@@ -36,27 +36,26 @@ cta:
 ######################## raw material #######################
 material:
   enable : true
-  title : "Ingredients Of Our Products"
-  subtitle : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dol."
+  title : "Experience the power of savings"
+  subtitle : "Our commitment to your wellbeing doesn't stop at providing effective health solutions."
   materialItem:
     # material item loop
-    - title : "Matcha Seeds"
+    - title : "Headache and Migraine Solutions"
       image : "images/material/material-1.png"
       content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
       
     # material item loop
-    - title : "Aloe Vera"
+    - title : "Cold and Flu Relief"
       image : "images/material/material-2.png"
       content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
       
     # material item loop
-    - title : "Turmeric"
+    - title : "Maternal Health and Comfort"
       image : "images/material/material-3.png"
       content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
       
     # material item loop
-    - title : "Tulshi leaf"
+    - title : "Respiratory Health"
       image : "images/material/material-4.png"
       content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
   
